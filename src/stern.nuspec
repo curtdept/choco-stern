@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>stern</id>
+    <version>1.11.0</version>
+    <packageSourceUrl>https://github.com/curtdept/choco-stern</packageSourceUrl>
+    <owners>Curtis Deptuck</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Stern (Install)</title>
+    <authors>Oracle</authors>
+    <projectUrl>https://github.com/wercker/stern</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/curtdept/choco-stern/master/images/stern.jpg</iconUrl>
+    <licenseUrl>https://github.com/wercker/stern/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/wercker/stern</projectSourceUrl>
+    <docsUrl>https://github.com/wercker/stern/blob/master/README.md</docsUrl>
+    <tags>stern</tags>
+    <summary>Kubernetes log tail and viewer</summary>
+    <description>>Stern allows you to tail multiple pods on Kubernetes and multiple containers within the pod. Each result is color coded for quicker debugging.</description>
+    <releaseNotes>https://github.com/wercker/stern/releases</releaseNotes>
+  </metadata>
+</package>
