@@ -2,7 +2,7 @@
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 # release version of kustomize: https://github.com/kubernetes-sigs/kustomize/releases
-$version = '1.21.0'
+$version = '1.25.0'
 # pattern for archive name
 $base_name = "stern_$($version)_windows_amd64"
 $zip_name = $base_name + ".tar.gz"
@@ -13,8 +13,8 @@ $exe_name = "stern.exe"
 $url = "https://github.com/stern/stern/releases/download/v$($version)/$($zip_name)"
 
 # use $ checksum [exe] -t=sha256
-$archive_checksum = 'C3F148576E604B250F4DF4769079F7B69F62B2DFCDFF10DC5FBD51815C297331'
-$exe_checksum = '2829D2B6C1B679EE4613D9285307803F99E882A9AD2101DE1CAD7574C7F7419F'
+$archive_checksum = 'EF662C0CEB1422538996CA3CB74DF10C7894C3591E1FA2471DD189D5E6AFB00C'
+$exe_checksum = '3CCD95C334AA20A452D55ECA327A99481C2A283489004580CEED384FB2E6CEF5'
 $checksum_type = 'sha256'
 
 # destinations
