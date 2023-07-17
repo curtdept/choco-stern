@@ -9,10 +9,9 @@
     <title>Stern (Install)</title>
     <authors>Oracle</authors>
     <projectUrl>https://github.com/stern/stern</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/curtdept/choco-stern/master/images/stern.jpg</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/curtdept/choco-stern@master/images/stern.jpg</iconUrl>
     <licenseUrl>https://github.com/stern/stern/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/stern/stern</projectSourceUrl>
     <docsUrl>https://github.com/stern/stern/blob/master/README.md</docsUrl>
     <tags>stern</tags>
     <summary>Kubernetes log tail and viewer</summary>
