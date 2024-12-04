@@ -1,8 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir     = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-# release version of kustomize: https://github.com/kubernetes-sigs/kustomize/releases
-
 # only 64bit url
 $url64 = 'https://github.com/stern/stern/releases/download/v1.31.0/stern_1.31.0_windows_amd64.tar.gz'
 
