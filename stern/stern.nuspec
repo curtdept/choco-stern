@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>stern</id>
-    <version>1.28.0</version>
+    <version>1.31.0</version>
     <packageSourceUrl>https://github.com/curtdept/choco-stern</packageSourceUrl>
     <owners>Curtis Deptuck</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -15,7 +15,10 @@
     <docsUrl>https://github.com/stern/stern/blob/master/README.md</docsUrl>
     <tags>stern</tags>
     <summary>Kubernetes log tail and viewer</summary>
-    <description>>Stern allows you to tail multiple pods on Kubernetes and multiple containers within the pod. Each result is color coded for quicker debugging.</description>
+    <description>&gt;Stern allows you to tail multiple pods on Kubernetes and multiple containers within the pod. Each result is color coded for quicker debugging.</description>
     <releaseNotes>https://github.com/stern/stern/releases</releaseNotes>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
